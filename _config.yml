@@ -1,0 +1,21 @@
+# Site settings
+title: Jenn's Personal Website
+description: 
+baseurl: "" 
+url: "https://Jennifer-Zheng.github.io"
+permalink: pretty
+
+# Build settings
+markdown: kramdown 
+theme: minima 
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+
+# Minima specific settings
+minima:
+  skin: dark 
